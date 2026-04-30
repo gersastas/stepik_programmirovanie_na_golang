@@ -1,0 +1,11 @@
+package main
+
+import "fmt"
+
+func main() {
+	var N int
+	fmt.Scan(&N)
+
+	lastDigit := N % 10
+	fmt.Println(lastDigit)
+}
